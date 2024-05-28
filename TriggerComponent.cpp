@@ -34,7 +34,7 @@ void UTriggerComponent:: TickComponent(float DeltaTime, ELevelTick TickType, FAc
     Mover->SetCanMove(true);
     // Else dont allow the Mover to move
    }else{
-    Mover->SetCanMove(false);
+    Mover->SetCanMove(false);5
    }
 }
 // *********
